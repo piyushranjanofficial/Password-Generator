@@ -1,0 +1,122 @@
+@media (max-width: 500px) {
+    #wrapper{
+        padding-top: 10vh;
+    }
+
+    #wrapper h1{
+        font-size: 6vw;
+    }
+    #output-container{
+        height: 6.5vh;
+        width: 75vw;
+        border-radius: 1.5vw;
+        border-bottom: 0.25rem solid var(--lt-violet2);
+    }
+    #output-input{
+        padding-left: 3.5vw;
+        padding-right: 3.5vw;
+        font-size: 3vw;
+        /* margin-left: 1.5vw; */
+    }
+    .copy-btn img{
+        height: 3.5vh;
+        width: 3.5vh;
+    }
+    
+    .tooltip{
+        height: 2.8vh;
+        width: 14vw;
+    }
+      
+    /* ------------ Input Container --------------- */
+    #input-container{
+        height: 55vh;
+        width: 75vw;
+        padding: 2.5vw 3.5vw;
+        margin-top: 2.5vh;
+        border-radius: 1.7vw;
+    }
+
+    /* ---- Password Length ---*/
+    #password-length{
+        height: 7vh;
+        width: 100%;
+        margin-top: 0.4vh;
+    }
+    #password-length h3{
+        font-size: 3.8vw;
+        font-weight: 500;
+        letter-spacing: 0.1vw;
+        /* background-color: aliceblue; */
+    }
+    #password-length p{
+        width: fit-content;
+        font-size: 3.8vw;
+        font-weight: 500;
+    }
+
+    /*--- Slider ---*/
+    #slider{
+        height: 1.2vw;
+        width: 100%;
+        margin-top: 0.4rem;
+        margin-bottom: 1rem;
+    }
+
+
+/*--- Checkbox ---*/
+    .checkbox{
+        margin-top: 2.4vh;
+        height: 3.5vw;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 2vw;
+        position: relative;
+    /* background-color: aquamarine; */
+    }
+    .checkbox input{
+        appearance: none;
+        height: 3.5vw;
+        width: 3.5vw;
+        border-radius: 0.8vh;
+    }
+    .checkbox input    :checked{
+        background-color: var(--vb-cyan2);
+    }
+    .checkbox input:checked::before {
+        font-size: 3vw;
+        font-weight: 600;
+        left: 0.5vw;
+        bottom: -0.3vh;
+    }
+    .checkbox label{
+        font-size: 4vw;
+    }
+
+    /* --- Strength --- */
+
+    #strength{
+        height: 10vh;
+        width: 100%;
+        margin-top: 0.5vh;
+    }
+    #strength h3{
+        font-size: 3.8vw;
+        font-weight: 500;
+    }
+    .strength-icon{
+        height: 3.3vw;
+        width: 3.3vw;
+    }
+
+    /*--- Generate Button ---*/
+    .generate-btn{
+        margin-top: 1vh;
+        height: 6vh;
+        width: 100%;
+        border-radius: 1.2vw;
+        font-size: 3.4vw;
+        font-weight: 700;
+    }   
+}
